@@ -29,7 +29,7 @@ while (R == true)
     {
         pesoBronze = peso;
         nomeBronze = nome;
-        Console.WriteLine("bronze");
+     
     }
     Console.WriteLine("Calcular o resultado? Sim ou Não");
     x = Console.ReadLine().ToLowerInvariant();
