@@ -19,8 +19,6 @@ while (R == true)
     }
     else if (peso > pesoPrata )
     {
-        c = c + 1;
-        Console.WriteLine(c);
         pesoBronze = pesoPrata;
         nomeBronze = nomePrata;
         pesoPrata = peso;
@@ -31,7 +29,6 @@ while (R == true)
     {
         pesoBronze = peso;
         nomeBronze = nome;
-        Console.WriteLine("bronze");
     }
     Console.WriteLine("Calcular o resultado? Sim ou Não");
         x = Console.ReadLine().ToLowerInvariant();
